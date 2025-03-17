@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primer Aniversario Sergio y María</title>
+    <link rel="stylesheet" href="css.css">
+    <script src="JAVA.js"></script>
+</head>
+<body>
+    <!-- Música de fondo -->
+    <audio id="background-music" autoplay loop>
+        <source src="Musica/K. - Cigarettes After Sex [L4sbDxR22z4].mp3" type="audio/mp3">
+        Tu navegador no soporta el formato de audio.
+    </audio>
+
+    <div class="record-container">
+        <img id="record" src="IMAGES/disco.jpg" alt="Disco giratorio">
+        <p id="song-title">𝒞𝒾𝑔𝒶𝓇𝑒𝓉𝓉𝑒𝓈 𝒜𝒻𝓉𝑒𝓇 𝒮𝑒𝓍 - 𝒦.</p>
+    </div>
+    
+    <div class="container">
+        <header>
+            <h1>Aniversario de Sergio y María 💞💞</h1>
+        </header>
+
+        <section class="countdown">
+            <div id="countdown-timer">
+                <p id="countdown"></p>
+            </div>
+        </section>
+
+        <section class="photos">
+            <div class="photo-gallery">
+                <img src="IMAGES/1.jpg" alt="Foto 1">
+                <img src="IMAGES/2.jpg" alt="Foto 2">
+                <img src="IMAGES/3.jpg" alt="Foto 3">
+            </div>
+        </section>
+
+        <section class="message">
+            <p id="message-text"></p>
+        </section>
+
+        <footer>
+            <p>¡¡Feliz aniversario!!</p>
+        </footer>
+    </div>
+
+</body>
+</html>
+
